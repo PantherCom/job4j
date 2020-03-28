@@ -1,9 +1,8 @@
-package job4j.converter;
+package ru.job4j.converter;
 
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import ru.job4j.converter.Converter;
 
 public class ConverterTest {
     @Test
