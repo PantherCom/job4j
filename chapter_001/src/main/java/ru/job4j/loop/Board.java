@@ -5,33 +5,13 @@ public class Board {
 
         for (int row = 0; row < height; row++) {
             for (int cell = 0; cell < width; cell++) {
-                int serv = row +cell;
-                if (serv % 2 == 0) { //печатаем X - width раз.
+                if ((row + cell) % 2 == 0) {
                     System.out.print("X");
                 } else {
                     System.out.print(" ");
                 }
             }
-        /*for (int row = 0; row < height; row++) {
-            if (row % 2 ==0){
-            for (int cell = 0; cell < width; cell++) {
-                if (cell % 2 == 0) { //печатаем X - width раз.
-                    System.out.print("X");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            } else {
-                for (int cell =0; cell<width; cell++){
-                    if (cell % 2 != 0) { //печатаем X - width раз.
-                        System.out.print("X");
-                    } else {
-                        System.out.print(" ");
-                    }
-                }
 
-
-            }*/
             // добавляем перевод на новую строку.
             System.out.println();
         }
