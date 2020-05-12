@@ -7,15 +7,16 @@ public class ArrayDefinition {
         float[] prices = new float[40];
 
         String[] names = new String[4];
-        names[1] = "first";
-        names[2] = "second";
-        names[3] = "thrid";
-        names[0] = "fourth";
+        names[0] = "first";
+        names[1] = "second";
+        names[2] = "thrid";
+        names[3] = "fourth";
 
+
+        System.out.println(names[0]);
         System.out.println(names[1]);
         System.out.println(names[2]);
         System.out.println(names[3]);
-        System.out.println(names[0]);
 
 
     }
