@@ -12,6 +12,7 @@ public class FitTest {
         double man = Fit.manWeight(height);
         Assert.assertEquals(expected, man, 0.01);
     }
+
     @Test
     public void womanWeight() {
         double height = 200;

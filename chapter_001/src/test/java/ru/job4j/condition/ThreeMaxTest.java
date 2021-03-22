@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-
 public class ThreeMaxTest {
     @Test
     public void firstMax() {
@@ -21,7 +20,7 @@ public class ThreeMaxTest {
 
     @Test
     public void thirdMax() {
-        int rsl = ThreeMax.max(1, 5, 100) ;
+        int rsl = ThreeMax.max(1, 5, 100);
         assertThat(rsl, is(100));
     }
 

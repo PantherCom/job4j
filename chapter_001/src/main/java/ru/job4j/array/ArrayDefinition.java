@@ -11,13 +11,9 @@ public class ArrayDefinition {
         names[1] = "second";
         names[2] = "thrid";
         names[3] = "fourth";
-
-
         System.out.println(names[0]);
         System.out.println(names[1]);
         System.out.println(names[2]);
         System.out.println(names[3]);
-
-
     }
 }
