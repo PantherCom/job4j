@@ -20,8 +20,7 @@ public class ConverterTest {
     @Test
     public void rubleToDollar() {
         int in = 180;
-
-        int expected = 3; //ОТРИЦАТЕЛЬНЫЙ ТЕСТ
+        int expected = 3;
         int out = Converter.rubleToDollar(in);
         Assert.assertEquals(expected, out);
     }
