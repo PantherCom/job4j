@@ -14,8 +14,7 @@ public class Machine {
                 change = change - coins[i];
                 rsl[size] = coins[i];
                 size++;
-            }
-            else {
+            } else {
             i++;
             }
         }
